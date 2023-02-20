@@ -1,5 +1,3 @@
-
-
 export default function serie(n){
     let fserie;
     fserie = -3 * primo(n) - fibonacci(n) + 5 * triangular(n);
@@ -31,8 +29,9 @@ function fibonacci(n) {
 }
 
 //console.log(fibonacci(3));
-let T =0
+
 function triangular(n) {
+    let T = 0;
     n++;
     T= (n*(n+1))/2;
     return T;
